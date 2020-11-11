@@ -66,11 +66,11 @@ const Expenses = () => {
                         <ChartIcon/>
                     </Button>
 
-                    <Button 
+                    {/* <Button 
                     onClick={() => filterTransactions(allTransactions, isFiltered ? false : true)} light={theme.light}
                     style={`${styles.filter} ${isFiltered && styles.active}`}>
                         <FilterIcon/>
-                    </Button>
+                    </Button> */}
                     
                 </div>
 

@@ -48,10 +48,10 @@ const TrackerSettings = () => {
                 <p className={styles.s__description}>{t('settings description')}</p>
                 <div className={styles.grid}>
 
-                    <Button onClick={changeLanguage}>
+                    {/* <Button onClick={changeLanguage}>
                         <GlobeIcon/>
                         <span>{currentLang === 'es' ? 'Español' : 'English'}</span>
-                    </Button>
+                    </Button> */}
 
 
                     <Button onClick={toggleTheme}>
@@ -59,10 +59,10 @@ const TrackerSettings = () => {
                         <span>{theme.light ?'Light Mode' : 'Dark Mode'}</span>
                     </Button>
 
-                    <Button onClick={() => changeCurrency(currentCurrency === 'CLP' ? 'USD' : 'CLP')}>
+                    {/* <Button onClick={() => changeCurrency(currentCurrency === 'CLP' ? 'USD' : 'CLP')}>
                         <DollarIcon/>
                         <span>{currentCurrency === 'CLP' ? 'CLP' : 'USD'}</span>
-                    </Button>
+                    </Button> */}
 
 
                     <Link to="/categories" className={styles.grid__item} style={style}>

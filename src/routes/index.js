@@ -11,6 +11,7 @@ import { useUser } from 'reactfire';
 
 import About from '../pages/About';
 import Login from  '../pages/auth/Login';
+import Register from  '../pages/auth/Register';
 import Expenses from "../pages/expenses";
 import TrackerSettings from '../pages/settings'
 import Categories from '../pages/categories'
@@ -32,6 +33,9 @@ const MainRouter = () => {
           </Route>
           <NoAuthOnlyRoute path="/login">
             <Login />
+          </NoAuthOnlyRoute>
+          <NoAuthOnlyRoute path="/register">
+            <Register />
           </NoAuthOnlyRoute>
         </Switch>
     </Router>
